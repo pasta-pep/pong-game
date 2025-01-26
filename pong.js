@@ -176,7 +176,7 @@ function paddleCollision() {
   }
   
   // Right paddle collision
-  if ((yBall > rightPaddleY && yBall < rightPaddleY + 90) && (xBall + 10 >= 575)) {
+  if ((yBall > rightPaddleY && yBall < rightPaddleY + 90) && (xBall + 10 >= 775)) {
     xSpeed *= -1;
     ySpeed *= random(0.9, 1.1);
   }

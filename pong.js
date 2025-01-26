@@ -157,7 +157,7 @@ function display() {
 
 function paddleCollision() {
   paddle1X
-  if ((xBall > paddle1X && xBall < paddle1X + 90) && (yBall + 10 >= 375)) {
+  if ((xBall > paddle1X && xBall < paddle1X + 90) && (yBall + 10 >= 575)) {
     ySpeed *= -1;
     xSpeed *= random(0.9, 1.1); // Add some randomness to prevent loops
   }
@@ -176,7 +176,7 @@ function paddleCollision() {
   }
   
   // Right paddle collision
-  if ((yBall > rightPaddleY && yBall < rightPaddleY + 90) && (xBall + 10 >= 375)) {
+  if ((yBall > rightPaddleY && yBall < rightPaddleY + 90) && (xBall + 10 >= 575)) {
     xSpeed *= -1;
     ySpeed *= random(0.9, 1.1);
   }

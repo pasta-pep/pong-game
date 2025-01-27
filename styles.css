@@ -5,8 +5,24 @@ body {
     align-items: center;
     min-height: 100vh;
     background: black;
+    font-family: Helvetica;
     
 }
 canvas {
     border: 4px solid whitesmoke;
+}
+
+
+.info {
+  max-width: 520px;
+  line-height: 1.2;
+  margin-right: 200px;
+  color: whitesmoke;
+  margin-bottom: 430px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
